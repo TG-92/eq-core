@@ -29,3 +29,8 @@ add_executable(eq_core_tests
 target_link_libraries(eq_core_tests PRIVATE eq_core)
 # Unser Test-Programm benutzt die Library eq_core.
 # PRIVATE heißt: nur dieses Target braucht das Linken.
+
+enable_testing()
+# CTest aktivieren, damit VS Code Tests entdecken kann
+
+add_test (NAME eq_core_tests COMMAND eq_core_tests)
