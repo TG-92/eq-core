@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-# Mindestversion: damit moderne Features sicher funtionieren.
+# Mindestversion: damit moderne Features sicher funktionieren.
 
 project(eq_core LANGUAGES CXX)
 # Projektname: eq_core
@@ -33,4 +33,5 @@ target_link_libraries(eq_core_tests PRIVATE eq_core)
 enable_testing()
 # CTest aktivieren, damit VS Code Tests entdecken kann
 
-add_test (NAME eq_core_tests COMMAND eq_core_tests)
+add_test(NAME eq_core_tests COMMAND eq_core_tests)
+# Test executable als test registrieren
