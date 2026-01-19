@@ -1,0 +1,26 @@
+# Build output
+build/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ninja
+.ninja_*
+
+# MSVC / Windows artifacts
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# VS Code
+.vscode/
+
+# Windows noise
+Thumbs.db
